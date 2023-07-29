@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Git checkout') {
             steps {
-                git branch: 'main', changelog: false, poll: false, url: 'https://github.com/irshadsamad/maven.git'
+                git branch: 'mater', changelog: false, poll: false, url: 'https://github.com/irshadsamad/maven.git'
             }
         }
         
